@@ -1,0 +1,16 @@
+0 silly input [ 'dex-token' ]
+1 silly flags { _: [ 'add' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   _onRejected: [Function: _onRejected],
+1 silly flags   args: [ 'dex-token' ] }
+2 verbose rootPath /Users/diegobarahona/Documents/Research/DExChain
+3 info version 2.7.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/diegobarahona/Documents/Research/DExChain/VERSION
+7 silly initialize attempt
+8 error initialize callback with error
+9 error Error: Package `dex-token` doesn't exist
+9 error     at got.then.catch.err (/Users/diegobarahona/.config/yarn/global/node_modules/package-json/index.js:62:11)
+9 error     at <anonymous>

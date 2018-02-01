@@ -1,0 +1,13 @@
+{
+	"name": "dexchain",
+	"description": "Decentralized Exchange on Chain",
+	"author": {
+		"name": "Diego Barahona",
+		"email": "diestrin@gmail.com",
+		"url": "http://diegobarahona.com/"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"lerna": "^2.7.0"
+	}
+}

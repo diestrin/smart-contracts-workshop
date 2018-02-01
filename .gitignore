@@ -1,0 +1,18 @@
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# local env variables
+.env
+
+# lol macs
+.DS_Store/
+
+# editors
+.idea
+.vscode
+
+# Mac
+.DS_Store

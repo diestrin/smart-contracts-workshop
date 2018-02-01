@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "name": "dexchain-dex-token",
+  "description": "DExChain Token",
+  "author": {
+    "name": "Diego Barahona",
+    "email": "diestrin@gmail.com",
+    "url": "http://diegobarahona.com/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf ./build",
+    "build": "npm run clean && truffle compile",
+    "deploy": "truffle migrate",
+    "test": "truffle test",
+    "ganache": "ganache-cli"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.1.1",
+    "ganache-cli": "^6.0.3",
+    "rimraf": "^2.6.2",
+    "truffle": "^4.0.4"
+  },
+  "dependencies": {
+    "truffle-contract": "^3.0.2"
+  }
+}
