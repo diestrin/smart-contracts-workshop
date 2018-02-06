@@ -1,10 +1,10 @@
-const Test = artifacts.require('Test');
+const Token = artifacts.require('Token');
 
-contract('Test', accounts => {
+contract('Token', accounts => {
   let TKN;
 
   beforeEach(async () => {
-    TKN = await Test.new();
+    TKN = await Token.new();
   });
 
   describe('basic info', () => {
